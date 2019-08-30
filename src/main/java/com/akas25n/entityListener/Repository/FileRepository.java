@@ -10,5 +10,4 @@ import com.akas25n.entityListener.Entities.File;
 @Repository
 public interface FileRepository extends JpaRepository<File, Integer>{
 
-	public List<File> findAll();
 }
