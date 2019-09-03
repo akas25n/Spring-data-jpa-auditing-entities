@@ -42,8 +42,10 @@ public class FileHistory {
 	@JoinColumn(name="file_id", referencedColumnName = "f_id")
 	File file;
 	
+	//fields from file  entity
 	String fileContent;
 	
+	//fields from file  entity
 	String fileName;
 	
 	@CreatedBy
